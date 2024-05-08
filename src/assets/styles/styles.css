@@ -1,0 +1,32 @@
+body{
+    background-color: #151B21;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+button{
+    font-size: 20px;
+    width: 3%;
+    padding: 10px;
+    border: 2px solid #151B21;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btnNum{background-color: #303136; color: #2599ea;}
+.btnOp{background-color: #005db2; color: #2599ea;}
+.btnCalc{background-color: #1991ff; color: #b2daff;}
+.btnClear{background-color: #606061;color: #a1a1a2;}
+
+.btnNum:hover{
+    background-color: #292929;
+}
+
+.opText{
+    background-color: #151B21;
+    border: none;
+    width: 100%;
+    font-size: 30px;
+    color: #606061;
+    height: 10vh;
+    margin-bottom: 10px;
+}
