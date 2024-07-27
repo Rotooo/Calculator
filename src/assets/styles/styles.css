@@ -5,17 +5,19 @@ body{
 
 button{
     font-size: 20px;
-    width: 3%;
+    width: 10%;
+    height: 10vh;
     padding: 10px;
     border: 2px solid #151B21;
     border-radius: 7px;
+    text-align: center;
     cursor: pointer;
 }
 
-.btnNum{background-color: #303136; color: #2599ea;}
-.btnOp{background-color: #005db2; color: #2599ea;}
-.btnCalc{background-color: #1991ff; color: #b2daff;}
-.btnClear{background-color: #606061;color: #a1a1a2;}
+.btnNum{background: linear-gradient(#303136, #232323); color: #2599ea;}
+.btnOp{background: linear-gradient(#005DB2, #003D77); color: #2599ea;}
+.btnCalc{background: linear-gradient(#1991ff, #0070D9); color: #b2daff;}
+.btnClear{background: linear-gradient(#969696, #606061); color: #bfbfbf;}
 
 .btnNum:hover{
     background-color: #292929;
@@ -23,10 +25,27 @@ button{
 
 .opText{
     background-color: #151B21;
-    border: none;
-    width: 100%;
+    border: 2px solid #1b2530;
+    border-radius: 15px;
+    width: 99%;
+    padding: 5px;
     font-size: 30px;
     color: #606061;
     height: 10vh;
     margin-bottom: 10px;
+}
+
+.opText:focus{
+    outline: none;
+}
+
+@media only screen and (min-width: 100px) {
+    .numDiv{ flex-direction: row; display: flex; }
+    .numDiv2{ flex-direction: row; display: flex; }
+
+}
+
+@media only screen and (min-width: 900px) {
+    .numDiv{ flex-direction: row; display: flex; }
+    .numDiv2{ flex-direction: row; display: flex; }
 }
